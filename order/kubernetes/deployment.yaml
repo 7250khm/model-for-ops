@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: username/order:latest
+          image: diaego/order:20250619
           ports:
             - containerPort: 8080
           readinessProbe:

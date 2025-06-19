@@ -28,7 +28,7 @@ Edit the deployment.yaml under the /kubernetes directory:
     spec:
       containers:
         - name: delivery
-          image: username/delivery:latest   # change this image name
+          image: username/delivery:   # change this image name
           ports:
             - containerPort: 8080
 

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: username/gateway:latest
+          image: diaego/gateway:20250619
           ports:
             - containerPort: 8080
